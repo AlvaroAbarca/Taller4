@@ -16,6 +16,6 @@ def lectura(list,y): #Se le pasa una lista y una columna
 	for x in range(2,17):
 		asd = str(y)+ str(x)
 		#print(asd)
-		listPromL.append(sheet_ranges[asd].value)
+		list.append(sheet_ranges[asd].value)
 lectura(listPromL,'J')
 print(listPromL)		
